@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background Image */
+body {
+    background-image: url("download.jpeg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+
+/* Simple Styling */
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 10px;
+}

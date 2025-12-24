@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Demo Form</legend>
+        <!--Text-->
+        <label for="Name">Name:</label> 
+        <input type="text" name="name" id="name" placeholder="Name" required><br>
+
+        <label for="Email">Email</label> 
+        <input type="email" name="email" id="email" placeholder="Email" required><br>
+
+        <label for="Password">password:</label> 
+        <input type="password" name="password" id="password" placeholder="Password" required><br>
+
+        <!--Radio Button-->
+        <label for="Choose">Choose your favorite Web Framework:</label>
+
+        <input type="radio" name="Fav_lang" id="" value="HTML">
+        <label for="HTML">HTML</label>
+
+        <input type="radio" name="Fav_lang" id="" value="HTML">
+        <label for="CSS">CSS</label>
+
+        <input type="radio" name="Fav_lang" id="" value="JavaScript">
+        <label for="JavaScript">JavaScript</label><br>
+        <!--Checkbox-->
+        <label for="Color">Choose your favorite color:</label>
+        <input type="checkbox" name="color" id="color1" value="Blue">
+        <label for="Blue">Blue</label>
+
+        <input type="checkbox" name="color" id="color2" value="Red">
+        <label for="Red">Red</label>
+
+        <input type="checkbox" name="color" id="color3" value="Green">
+        <label for="Green">Green</label><br>
+           
+        <!--Color-->
+        <label for="Color">Choose your favorite color:</label>
+        <input type="color" name="color" id="color" value="Blue"><br>
+        
+        <!--Date-->
+        <label for="Date">D.O.B:</label>
+        <input type="date" name="date" id="date"><br>
+
+        <!--Time-->
+        <label for="Time">Time:</label>
+        <input type="time" name="time" id="time"><br>
+
+        <!--Image-->
+        <label for="Image">Image:</label>
+        <input type="image" src="download.jpeg" name="image" id="image"><br>
+
+        <!--File-->
+        <label for="File">File:</label>
+        <input type="file" name="file" id="file"><br>
+
+        <!--Tel-->
+        <label for="Phone">Phone:</label>
+        <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}"><br>
+        <!--Select-->
+        <label for="framework">Choose your favorite Web Framework:</label>
+
+        <select name="framework" id="framework">
+            <option value="React">React</option>
+            <option value="Angular">Angular</option>
+            <option value="Vue">Vue</option>
+        </select><br>
+
+        <!--Address-->
+        <label for="Address">Address:</label>
+        <textarea name="address" id="address" cols="30" rows="5"></textarea><br>
+
+        <button type="submit" value="Submit">Submit</button>
+        <button type="reset" value="Reset">Reset</button>
+        </fieldset>
+    </form>
+</body>
+</html>
